@@ -25,6 +25,10 @@
             max-width: 380px;
             width: 100%;
 
+            a {
+                text-decoration: none;
+            }
+
             &:nth-child(2) {
                 background-image: url(../images/fundo_combo_plus.png);
                 background-repeat: no-repeat;
@@ -33,6 +37,7 @@
 
             img {
                 height: 83px;
+                border-radius: 8px;
             }
 
             strong {
