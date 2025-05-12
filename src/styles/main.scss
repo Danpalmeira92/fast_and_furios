@@ -2,7 +2,6 @@
 @use 'hero';
 @use 'shows';
 @use'plans';
-@use 'available-devices';
 @use 'faq';
 @use 'footer';
 @use 'header';
@@ -163,6 +162,21 @@ body {
         display: block;
         position: relative;
 
+        h2 {
+            background-color: rgba(128, 128, 128, 0.551);
+            color: rgb(253, 243, 228);
+            margin-bottom: 0;
+            padding: 8px;
+
+        }
+
+        p {
+            background-color: rgba(128, 128, 128, 0.551);
+            color: rgb(253, 243, 228);
+            font-weight: bold;
+            padding: 8px;
+        }
+
         img {
             width: 100%;
         }
@@ -181,6 +195,12 @@ body {
                 position: relative;
                 left: 0;
                 width: 100%;
+
+                h2,
+                p {
+                    background-color: transparent;
+
+                }
             }
         }
     }
