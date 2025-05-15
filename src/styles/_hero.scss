@@ -48,15 +48,9 @@
             }
         }
 
-        &__combos {
-            display: flex;
-            justify-content: space-between;
 
-            @media (max-width: 768px) {
-                display: block;
-            }
 
-            &__combo {
+            &__intro {
                 width: calc(80% - 12px);
                 color: white;
                 text-align: left;
@@ -70,4 +64,3 @@
             }
         }
     }
-}
