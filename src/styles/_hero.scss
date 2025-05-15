@@ -1,11 +1,12 @@
 @use 'variaveis';
 
 .hero {
+    color: #fff;
     padding: 2.6vw;
     min-height: 60vh;
     background-image: url(../images/hero_desktop.jpeg);
     background-size: cover;
-    text-align: center;
+    text-align: justify;
 
     @media (max-width: 768px) {
         background-image: url(../images/hero_celular.jpeg);
@@ -47,8 +48,6 @@
                 margin-top: 32px;
             }
         }
-
-
 
             &__intro {
                 width: calc(80% - 12px);
